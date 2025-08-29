@@ -12,13 +12,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jquery@npm:^2.0.32":
-  version: 2.0.54
-  resolution: "@types/jquery@npm:2.0.54"
-  checksum: 10c0/8fc70e33a313c50224cd929a428c728a6f700cc5ec66dec5028d817f0c34ba8388d472f1bc0fb07f424c8c67314a8d8d19dfbc96b24cde0e317b59a0ab67ca0c
-  languageName: node
-  linkType: hard
-
 "bootstrap@npm:5.3.8":
   version: 5.3.8
   resolution: "bootstrap@npm:5.3.8"
@@ -61,13 +54,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"devbridge-autocomplete@npm:^1.4.11":
-  version: 1.4.11
-  resolution: "devbridge-autocomplete@npm:1.4.11"
-  dependencies:
-    "@types/jquery": "npm:^2.0.32"
-    jquery: "npm:>=1.7"
-  checksum: 10c0/2ec2d14d9060ca58d54b13b5582c3c87ede9d527c7f3b17e76f6492a35ef5cc66318b748cf8111839a7690a2e612f6c42667c2e8c72ab7129fc679ec3e74ed00
+"devbridge-autocomplete@npm:^1.5.0":
+  version: 1.5.0
+  resolution: "devbridge-autocomplete@npm:1.5.0"
+  peerDependencies:
+    jquery: ">=1.9"
+  checksum: 10c0/c675e0ede93df2a3f78e1229c8608f75dc28b540b267d8aeaf299a618bcbb376946b8dd8b7e253c0eea2cf2f32003ffd5d7bf6fe9432d627e582d6144e38669e
   languageName: node
   linkType: hard
 
@@ -93,6 +85,22 @@ __metadata:
   checksum: 10c0/c9703caa61b4d38385eab34aa5068f3a25ab40f6d9cda6dac3f0dc4dcd8da38f7b0283035e71c9f52a47b670b9315372cae46f58d66ad709a4939e57c1fdc6cc
   languageName: node
   linkType: hard
+
+"git-fit@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "git-fit@workspace:."
+  dependencies:
+    "@popperjs/core": "npm:^2.11.8"
+    bootstrap: "npm:5.3.8"
+    components-font-awesome: "npm:5.9.0"
+    datatables.net-bs5: "npm:^2.3.3"
+    devbridge-autocomplete: "npm:^1.5.0"
+    htmx.org: "npm:^2.0.6"
+    jquery: "npm:^3.7.1"
+    masonry-layout: "npm:^4.2.2"
+    popper.js: "npm:^1.16.1"
+  languageName: unknown
+  linkType: soft
 
 "htmx.org@npm:^2.0.6":
   version: 2.0.6
@@ -135,19 +143,3 @@ __metadata:
   checksum: 10c0/1c1a826f757edb5b8c2049dfd7a9febf6ae1e9d0e51342fc715b49a0c1020fced250d26484619883651e097c5764bbcacd2f31496e3646027f079dd83e072681
   languageName: node
   linkType: hard
-
-"wger@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "wger@workspace:."
-  dependencies:
-    "@popperjs/core": "npm:^2.11.8"
-    bootstrap: "npm:5.3.8"
-    components-font-awesome: "npm:5.9.0"
-    datatables.net-bs5: "npm:^2.3.3"
-    devbridge-autocomplete: "npm:^1.4.11"
-    htmx.org: "npm:^2.0.6"
-    jquery: "npm:^3.7.1"
-    masonry-layout: "npm:^4.2.2"
-    popper.js: "npm:^1.16.1"
-  languageName: unknown
-  linkType: soft
