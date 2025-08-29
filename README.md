@@ -1,4 +1,4 @@
-﻿# wger
+# git-fit
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/wger-project/wger/master/wger/core/static/images/logos/logo.png" width="100" height="100" alt="wger logo">
@@ -10,7 +10,7 @@
 </p>
 
 
-wger (ˈvɛɡɐ) is a free workout and fitness manager.
+git-fit is a free workout and fitness manager.
 
 - 🏋️ **Custom Workout Routines** – Create flexible routines with automatic weight progression rules.
 - 📊 **Comprehensive Tracking** – Track diet plans, body weight, and custom measurements.

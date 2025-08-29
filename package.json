@@ -1,9 +1,9 @@
 {
-  "name": "wger",
+  "name": "git-fit",
   "version": "2.4.alpha1",
   "description": "Self hosted FLOSS fitness/workout and weight tracker",
   "repository": "github:wger-project/wger",
-  "author": "wger team <hello@wger.de>",
+  "author": "git-fit team <hello@wger.de>",
   "license": "AGPL-3.0",
   "bugs": {
     "url": "https://github.com/wger-project/wger/issues"

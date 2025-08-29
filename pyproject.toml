@@ -3,11 +3,11 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "wger"
+name = "git-fit"
 dynamic = ["version", ]
 authors = [
     { name = "Roland Geider", email = "roland@geider.net" },
-    { name = "wger team", email = "hello@wger.de" },
+    { name = "git-fit team", email = "hello@wger.de" },
 ]
 description = "FLOSS workout, fitness and weight manager/tracker"
 readme = "README.md"
@@ -94,7 +94,7 @@ Funding = "https://buymeacoffee.com/wger"
 
 
 [project.scripts]
-wger = "wger.__main__:main"
+git-fit = "wger.__main__:main"
 
 [tool.setuptools]
 include-package-data = false
